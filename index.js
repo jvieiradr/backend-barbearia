@@ -22,6 +22,8 @@ import alterarCompromisso from './controller/alterarcompromisso.js';
 import listarCompromissos from './controller/listarcompromissos.js';
 import deletarCompromisso from './controller/deletarcompromisso.js';
 
+const port = process.env.PORT || 8800;
+
 api.listen(8080, () => {
     console.log('Servidor Iniciado...');
 });
